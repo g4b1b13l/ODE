@@ -9,9 +9,7 @@ from flask import (
 )
 
 import time
-from flask_login import logout_user
 from homepage import Homepage
-from logging import FileHandler, WARNING    
 
 
 
@@ -33,12 +31,6 @@ server = Flask(__name__)
 
 app = Flask(__name__)
 
-app.secret_key = 'somesecretkeythatonlyishouldknow'
-
-if not app.debug:
-    file_handler = FileHandler('errorlog.txt')
-    file_handler.setLevel(WARNING)
-    app.logger.addHandler(file_handler)
 
 
 
