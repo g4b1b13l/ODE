@@ -44,7 +44,8 @@ p.subtitle {
 .has-text-black{
   color: black;
 }
-
+.field{
+  margin-top: -10px;
 
 .fa{
   margin-left: 5px; 
