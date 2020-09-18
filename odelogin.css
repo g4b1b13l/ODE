@@ -48,7 +48,43 @@ p.subtitle {
   margin-left: 5px; 
 }
 
+@media (max-width:1405px) {
+  img#optionalstuff {
+  width:80px;
+  height:80px;
+    margin-left:8px;
+  }
+}
 
+@media (max-width:1208px) {
+  img#optionalstuff {
+  width:70px;
+  height:70px;
+  }
+}
+
+@media (max-width:956px) {
+  img#optionalstuff {
+  width:60px;
+  height:60px;
+  margin-top:60px;
+    margin-left:19px;
+  }
+}
+
+
+
+@media (max-width:770px) {
+  img#optionalstuff {
+  display:None;
+  }
+}
+
+@media (max-width:770px) {
+  div#colunas {
+  display:None;
+  }
+}
 
 
 
