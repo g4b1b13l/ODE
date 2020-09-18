@@ -10,9 +10,7 @@ html,body {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.box {
-  margin-top: 5rem;
-}
+
 .avatar {
   margin-left:-57px;
   margin-top: -70px;
