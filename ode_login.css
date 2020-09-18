@@ -1,0 +1,119 @@
+html,body {
+  font-family: 'Questrial', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.hero.is-success {
+  background: #F2F6FA;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box {
+  margin-top: 5rem;
+}
+.avatar {
+  margin-left:-57px;
+  margin-top: -70px;
+  padding-bottom: 20px;
+}
+.avatar img {
+ object-fit: cover;
+  height: 95px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+input {
+  font-weight: 300;
+}
+p {
+  font-weight: 700;
+}
+p.subtitle {
+  padding-top: 1rem;
+}
+
+.login-hr{
+  border-bottom: 1px solid black;
+}
+
+.has-text-black{
+  color: black;
+}
+
+.field{
+  padding-bottom: 10px;
+}
+
+.fa{
+  margin-left: 5px; 
+}
+
+
+@media (max-width:1405px) {
+  img#optionalstuff {
+  width:80px;
+  height:80px;
+    margin-left:8px;
+  }
+}
+
+@media (max-width:1208px) {
+  img#optionalstuff {
+  width:70px;
+  height:70px;
+  }
+}
+
+@media (max-width:956px) {
+  img#optionalstuff {
+  width:60px;
+  height:60px;
+  margin-top:60px;
+    margin-left:19px;
+  }
+}
+
+
+
+@media (max-width:770px) {
+  img#optionalstuff {
+  display:None;
+  }
+}
+
+@media (max-width:770px) {
+  div#colunas {
+  display:None;
+  }
+}
+
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
